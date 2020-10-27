@@ -8,5 +8,26 @@
     <artifactId>javaLesson</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties><maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target></properties>
 
+<build><sourceDirectory>src</sourceDirectory></build>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.3.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-chrome-driver</artifactId>
+                <version>4.0.0-alpha-6</version>
+
+            </dependency>
+
+    </dependencies>
 </project>
